@@ -1,0 +1,112 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-header-color: #212121;
+  --logo-color: #000000;
+  --blue-accent: #2196f3;
+  --main-background-hero-adress-color: #ffffff;
+  --team-section-background-color: #f5f4fa;
+  --hero-footer-background-color: #2f303a;
+}
+
+/* основний текст #757575 */
+/* заголовки додатковий текст #212121*/
+/* лого #000000 */
+/* акцент голубий #2196F3 */
+/* Основий білий фон #FFFFFF */
+/* фон Наша Команда #F5F4FA */
+/* фон Герой і футер #2F303A */
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: var(--main-background-hero-adress-color);
+  color: var(--primary-text-color);
+}
+
+.header {
+  background-color: var(--main-background-hero-adress-color);
+}
+
+/* лого */
+
+.logo {
+  color: var(--logo-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+.logo-part {
+  color: var(--blue-accent);
+}
+.logo-end {
+  color: var(--main-background-hero-adress-color);
+}
+
+/* навігація сайту */
+.site-nav .link {
+  color: var(--secondary-header-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--blue-accent);
+}
+
+/* контакти шапки */
+.header-contacts .link {
+  color: var(--primary-text-color);
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--blue-accent);
+}
+
+/* списки */
+ul {
+  list-style: none;
+}
+
+/* герой */
+.hero {
+  color: var(--main-background-hero-adress-color);
+  background-color: var(--hero-footer-background-color);
+}
+
+/* заголовки секцій */
+.section .section-title {
+  color: var(--secondary-header-color);
+}
+
+/* переваги */
+.features .title {
+  color: var(--secondary-header-color);
+}
+
+/* команда ЗРОБИТИ ФОН!!!!!!*/
+.team-section {
+  background-color: var(--team-section-background-color);
+}
+.team .team-name {
+  color: var(--secondary-header-color);
+}
+
+/* галерея */
+.gallery .gallery-title {
+  color: var(--secondary-header-color);
+}
+
+/* футер !!розібратись чому контакти були курсивом і як поставити цей колір color: rgba(255, 255, 255, 0,6);!!*/
+.footer {
+  background-color: var(--hero-footer-background-color);
+}
+.footer-contact .link {
+  color: var(--main-background-hero-adress-color);
+  font-style: normal;
+}
+
+.footer-contact .link:hover,
+.footer-contact .link:focus {
+  color: var(--blue-accent);
+}

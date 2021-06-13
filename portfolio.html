@@ -8,23 +8,24 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <a href="">
-                WebStudio
+            <a href="" class="logo">
+                <span class="logo-part">Web</span>Studio
             </a>
-            <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="./portfolio.html">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+            <ul class="site-nav">
+                <li><a href="./index.html" class="link">Студия</a></li>
+                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                <li><a href="" class="link">Контакты</a></li>
             </ul>
         </nav>
         <!-- Контакти-->
-        <ul>
-            <li><a href="info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="+380961111111">+38 096 111 11 11</a></li>
+        <ul class="header-contacts">
+            <li><a href="info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
     </header>
+    <main>
         <!--Кнопки фільтра Сховати заголовок???-->
         <section>
         <h1>Портфолио</h1>
@@ -45,68 +46,72 @@
                 <button type="button">Маркетинг</button>
             </li>
         </ul>
-        <!--Альбом  ВЗНАТИ ЧИ ТРЕБА ВСІ ЛІШКИ ЗАГОРТАТИ В ЛІНКИ ЯК В ВЕБІНАРІ (У НАС ПРОСТІШИЙ МАКЕТ)-->
+        <!--Альбом  ВЗНАТИ ЧИ ТРЕБА ВСІ ЛІШКИ ЗАГОРТАТИ В ЛІНКИ ЯК В ВЕБІНАРІ (У НАС ПРОСТІШИЙ МАКЕТ) ЗАПАКУВАТИ В ЛІНКИ-->
         <section>
-            <ul>
+            <ul class="gallery">
                 <li>
-                    <img src="./images/porfolio/technocrack.jpg" alt="Технокряк" width="370" height="294">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+                    <a href="">
+                        <img src="./images/porfolio/technocrack.jpg" alt="Технокряк" width="370" height="294">
+                        <h2 class="gallery-title">Технокряк</h2>
+                        <p>Веб-сайт</p>
+                    </a>
                 </li>
                 <li>
                     <img src="./images/porfolio/poster-new-orlean.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294">
-                    <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                    <h2 class="gallery-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                     <p>Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/porfolio/rest-seafood.jpg" alt="Ресторан Seafood" width="370" height="294">
-                    <h2>Ресторан <span lang="en">Seafood</span></h2>
+                    <h2 class="gallery-title">Ресторан <span lang="en">Seafood</span></h2>
                     <p>Приложение</p>
                 </li>
                 <li>
                     <img src="./images/porfolio/project-prime.jpg" alt="Проект Prime" width="370" height="294">
-                    <h2>Проект <span lang="en">Prime</span></h2>
+                    <h2 class="gallery-title">Проект <span lang="en">Prime</span></h2>
                     <p>Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/porfolio/project-boxes.jpg" alt="Проект Boxes" width="370" height="294">
-                    <h2>Проект <span lang="en">Boxes</span></h2>
+                    <h2 class="gallery-title">Проект <span lang="en">Boxes</span></h2>
                     <p>Приложение</p>
                 </li>
                 <li>
                     <img src="./images/porfolio/inspiration.jpg" alt="Inspiration has no Borders" width="370" height="294">
-                    <h2 lang="en">Inspiration has no Borders</h2>
+                    <h2 class="gallery-title" lang="en">Inspiration has no Borders</h2>
                     <p>Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/porfolio/limited-editions.jpg" alt="Издание Limited Edition" width="370" height="294">
-                    <h2>Издание <span lang="en">Limited Edition</span></h2>
+                    <h2 class="gallery-title">Издание <span lang="en">Limited Edition</span></h2>
                     <p>Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/porfolio/project-lab.jpg" alt="Проект LAB" width="370" height="294">
-                    <h2>Проект <span lang="en">LAB</span></h2>
+                    <h2 class="gallery-title">Проект <span lang="en">LAB</span></h2>
                     <p>Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/porfolio/growing-business.jpg" alt="Growing Business" width="370" height="294">
-                    <h2 lang="en">Growing Business</h2>
+                    <h2 class="gallery-title" lang="en">Growing Business</h2>
                     <p>Приложение</p>
                 </li>
             </ul>
         </section>
         </section>
+    </main>
     <!--Адрес-->
-    <footer>
-        <a href="">
-            WebStudio
+    <footer class="footer">
+        <a href="" class="logo">
+            <span class="logo-part">Web</span><span class="logo-end">Studio</span>
         </a>
         <address>
-            <ul>
-                <li> <a href="https://goo.gl/maps/Wv8Y8Ao4LumDGfkv7" target="_blank" rel="noopener noreferrer">г. Киев,
+            <ul class="footer-contact">
+                <li> <a href="https://goo.gl/maps/Wv8Y8Ao4LumDGfkv7" target="_blank" rel="noopener noreferrer"
+                        class="link">г. Киев,
                         пр-т Леси Украинки, 26</a> </li>
-                <li> <a href="mailto:info@example.com">info@example.com</a> </li>
-                <li> <a href="tel:+380991111111">+38 099 111 11 11</a></li>
+                <li> <a href="mailto:info@example.com" class="link">info@example.com</a></li>
+                <li> <a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
             </ul>
         </address>
     </footer>
