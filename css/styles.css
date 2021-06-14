@@ -15,6 +15,7 @@
 /* Основий білий фон #FFFFFF */
 /* фон Наша Команда #F5F4FA */
 /* фон Герой і футер #2F303A */
+/* напівпорзорий білий rgba(255, 255, 255, 0,6); */
 
 body {
   font-family: Roboto, sans-serif;
@@ -75,7 +76,8 @@ ul {
 }
 
 /* заголовки секцій */
-.section .section-title {
+.section .section-title,
+.team-section .team-section-title {
   color: var(--secondary-header-color);
 }
 
@@ -84,7 +86,7 @@ ul {
   color: var(--secondary-header-color);
 }
 
-/* команда ЗРОБИТИ ФОН!!!!!!*/
+/* команда */
 .team-section {
   background-color: var(--team-section-background-color);
 }
@@ -97,7 +99,9 @@ ul {
   color: var(--secondary-header-color);
 }
 
-/* футер !!розібратись чому контакти були курсивом і як поставити цей колір color: rgba(255, 255, 255, 0,6);!!*/
+/* футер !!розібратись чому контакти були курсивом 
+і як поставити цей колір 
+color: rgba(255, 255, 255, 0,6);!!*/
 .footer {
   background-color: var(--hero-footer-background-color);
 }
@@ -109,4 +113,14 @@ ul {
 .footer-contact .link:hover,
 .footer-contact .link:focus {
   color: var(--blue-accent);
+}
+
+/* кнопки */
+.button {
+  color: var(--secondary-header-color);
+  background-color: var(--team-section-background-color);
+}
+.button.primary. {
+  color: var(--main-background-hero-adress-color);
+  background-color: var(--blue-accent);
 }
